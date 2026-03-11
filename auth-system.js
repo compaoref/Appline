@@ -1,11 +1,11 @@
 // ===== AUTHENTICATION SYSTEM =====
 class AuthManager {
     constructor() {
-        this.storageKey = 'apphub_auth';
-        this.sessionKey = 'apphub_session';
-        this.historyKey = 'apphub_auth_history';
-        this.recoveryKey = 'apphub_recovery_codes';
-        this.twoFAKey = 'apphub_2fa';
+        this.storageKey = 'appline_auth';
+        this.sessionKey = 'appline_session';
+        this.historyKey = 'appline_auth_history';
+        this.recoveryKey = 'appline_recovery_codes';
+        this.twoFAKey = 'appline_2fa';
         
         // Identifiants par défaut
         this.defaultCredentials = {
